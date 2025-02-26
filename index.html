@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robert Bernhardt | Founder, Writer, Problem Solver</title>
+    <meta name="description" content="Personal website of Robert Bernhardt - entrepreneur, author, and amateur full-stack engineer with a knack for creative solutions.">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@700;800&family=Space+Mono&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gradient-to-br from-slate-50 to-slate-200 text-slate-800">
+    <div id="root"></div>
+    
+    <!-- React and ReactDOM CDN -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    
+    <!-- Babel for JSX -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/your-code-here.js" crossorigin="anonymous"></script>
+    
+    <!-- App Components -->
+    <script type="text/babel" src="../src/App.js"></script>
+    <script type="text/babel" src="../src/components/Navbar.js"></script>
+    <script type="text/babel" src="../src/components/Hero.js"></script>
+    <script type="text/babel" src="../src/components/About.js"></script>
+    <script type="text/babel" src="../src/components/Experience.js"></script>
+    <script type="text/babel" src="../src/components/Skills.js"></script>
+    <script type="text/babel" src="../src/components/ValueProposition.js"></script>
+    <script type="text/babel" src="../src/components/Books.js"></script>
+    <script type="text/babel" src="../src/components/CurrentProjects.js"></script>
+    <script type="text/babel" src="../src/components/Contact.js"></script>
+    <script type="text/babel" src="../src/components/Footer.js"></script>
+    
+    <!-- Main -->
+    <script type="text/babel">
+        ReactDOM.render(<App />, document.getElementById('root'));
+    </script>
+</body>
+</html>
